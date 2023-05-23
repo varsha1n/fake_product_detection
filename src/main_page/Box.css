@@ -5,8 +5,8 @@
     border-radius: 10%;
     text-align: center;
     padding:20px 20px;
-    margin:90px 20px;
-    font-family: 'Montserrat', sans-serif;
+    margin:100px 20px;
+    font-family:'Montserrat', sans-serif;
     font-size: larger;
 }
 .box-button{
@@ -14,5 +14,16 @@
     padding: 10px 15px;
 }
 .box_parent{
-    display:flex;
+    display:grid;
+    grid-template-columns: 480px 480px 480px;
+}
+.url{
+    height: 40px;
+    width:800px;
+    margin-top: 20px;
+}
+.url_parent{
+    position: fixed;
+    padding-left: 400px;
+    
 }
